@@ -1073,8 +1073,7 @@ function library:CreateWindow(name, version, icon)
                     if keybindtoggle == false then
                         keybindtoggle = true
                         KButton.Text = ". . ."
-                        Thing =
-                            game:GetService("UserInputService").InputBegan:Connect(
+                        Thing = game:GetService("UserInputService").InputBegan:Connect(
                                 function(Key, IsNotFocused)
                                     if IsNotFocused then
                                         return
@@ -1191,8 +1190,8 @@ function library:CreateWindow(name, version, icon)
                 UIStroke.Name = "UIStroke"
                 UIStroke.Parent = Indicator
                 UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
-                UIStroke.Color = Color3.fromRGB(135, 255, 135)
-                UIStroke.LineJoinMode = Enum.LineJoinMode.Round
+                UIStroke.Color = Color3.fromRGB(143, 76, 76)
+                UIStroke.LineJoinColor3.fromRGB(255, 135, 135)
                 UIStroke.Thickness = 2
                 UIStroke.Transparency = 0
 
